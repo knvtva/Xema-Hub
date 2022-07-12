@@ -18,7 +18,7 @@
     end)
 
 
-    if player.UserId = 146622221 then
+    if player.UserId == 146622221 then
         print("Developer Loaded")
 
     print(HubGame)
