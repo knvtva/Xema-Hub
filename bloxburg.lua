@@ -20,7 +20,7 @@ if game.PlaceId == 185655149 then -- Bloxburg
     end)
 
 
-    if Player.UserId == Premium then -- Checks for Premium
+    if Player.UserId is in Premium then -- Checks for Premium
         print("Premium User")
     end
 
