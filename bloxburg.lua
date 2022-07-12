@@ -13,7 +13,13 @@
     
     PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed of your player", 250, 16, function(v) -- 500 (MaxValue) | 0 (MinValue)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+        if v = 108 then
+            warn = 
     end)
+
+
+    if playerId = 146622221 then
+        print("Developer Loaded")
 
     print(HubGame)
  end
