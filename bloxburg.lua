@@ -21,7 +21,7 @@ if game.PlaceId == 185655149 then -- Bloxburg
 
 
     if Player.UserId == Premium then
-        print("Developer Loaded")
+        print("Premium User")
     end
 
     print(HubGame)
