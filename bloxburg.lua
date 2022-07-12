@@ -22,6 +22,8 @@ if game.PlaceId == 185655149 then -- Bloxburg
 
     if Player.UserId is in Premium then -- Checks for Premium
         print("Premium User")
+    else
+        print("Freebie User")
     end
 
     print(HubGame)
