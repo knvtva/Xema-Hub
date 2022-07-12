@@ -12,13 +12,15 @@ if game.PlaceId == 185655149 then -- Bloxburg
     local Players = game:GetService('Players')
     local Player = Players.LocalPlayer
 
-    
+    Premium = {"146622221", "1"}
+
+
     PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed of your player", 250, 16, function(v) -- 500 (MaxValue) | 0 (MinValue)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
     end)
 
 
-    if Player.UserId == 146622221 then
+    if Player.UserId == Premium then
         print("Developer Loaded")
     end
 
