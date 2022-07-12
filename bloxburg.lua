@@ -9,6 +9,8 @@ if game.PlaceId == 185655149 then -- Bloxburg
     local Gamepasses = Window:NewTab("Gamepasses")
     local Credits = Window:NewTab("Credits")
     local PlayerSection = Player:NewSection("Player")
+    local Players = game:GetService('Players')
+    local Player = Players.LocalPlayer
 
     
     PlayerSection:NewSlider("Walkspeed", "Changes the walkspeed of your player", 250, 16, function(v) -- 500 (MaxValue) | 0 (MinValue)
@@ -16,7 +18,7 @@ if game.PlaceId == 185655149 then -- Bloxburg
     end)
 
 
-    if player.UserId == 146622221 then
+    if Player.UserId == 146622221 then
         print("Developer Loaded")
     end
 
